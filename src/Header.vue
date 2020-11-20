@@ -2,10 +2,11 @@
   <div class="_nav">
         <nav>
           <ul>
-            <router-link to="/sell">sell</router-link>
-            <router-link to="/pricing">pricing</router-link>
-            <router-link to="/popup">popup</router-link>
-            <router-link to="/register-hashtag">register hashtag</router-link>
+            <router-link to="/sell" class="red">sell</router-link>
+            <router-link to="/hashtag" class="red">hashtag</router-link>
+            <router-link to="/pricing" class="red">pricing</router-link>
+            <router-link to="/popup" class="red">popup</router-link>
+
             <router-link to="/sell products">sell products</router-link>
             <router-link to="/upgrade-plan">upgrade plan</router-link>
             <router-link to="/giftgiving">giftgiving</router-link>
@@ -46,4 +47,8 @@
         font-size: 16px
         font-weight: bold
         text-decoration: underline
+
+
+.red
+  color: red !important
 </style>
